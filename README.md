@@ -1,4 +1,4 @@
-# Marketplace Frontend
+# MetaPro
 
 A React frontend for a decentralized marketplace that interacts with an EVM-compatible smart contract (example uses Flow EVM). The app supports wallet connection (MetaMask), listing items, buying items, transferring ownership, theme toggle, animated UI and a persistent purchase history.
 
