@@ -3,7 +3,8 @@ import { ethers } from "ethers";
 import MarketPlaceABI from "./MarketPlace.json";
 import ItemCard from "./components/ItemCard";
 
-const contractAddress = "0xe9420DC12546ACB7ae36FeAb7739dF5a2adC2180";
+// Read contract address from environment (REACT_APP_CONTRACT_ADDRESS) with a fallback
+const contractAddress = process.env.REACT_APP_CONTRACT_ADDRESS || "0xe9420DC12546ACB7ae36FeAb7739dF5a2adC2180";
 
 function App() {
   const [theme, setTheme] = useState(() => {
